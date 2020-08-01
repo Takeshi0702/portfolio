@@ -1,6 +1,6 @@
 /* ⬇️ 本当は文字全て白色にしたい */
 
-h1 {
+/* h1 {
   color: rgb(255, 0, 162);
 }
 
@@ -14,11 +14,44 @@ h4 {
 
 p {
   color: rgb(255, 98, 0);
-}
+} */
 /* ⬆️ 本当は文字全て白色にしたい */
 
 .center{
   text-align : center ;
+}
+
+
+.top {
+  background-color : #00ddff;
+}
+
+.about{
+  background-color : #00ff91;
+}
+
+.skill{
+  background-color : #e600ff;
+}
+
+.works{
+  background-color : #eaff00;
+}
+
+
+
+.font-white {
+  color : white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-item{
+  margin: 20px 10px ;
+  list-style: none;
 }
 
 
