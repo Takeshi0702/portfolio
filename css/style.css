@@ -1,52 +1,37 @@
-/* ⬇️ 本当は文字全て白色にしたい */
-
-/* h1 {
-  color: rgb(255, 0, 162);
-}
-
-h2 {
-  color: rgb(0, 42, 255);
-}
-
-h4 {
-  color: rgb(183, 0, 255);
-}
-
-p {
-  color: rgb(255, 98, 0);
-} */
-/* ⬆️ 本当は文字全て白色にしたい */
-
 .center{
   text-align : center ;
 }
 
 
 .top {
-  background-color : #00ff91;
+  padding : 250px;
 }
 
+
 .about{
-  background-color : #00ddff;
+  padding : 150px;
 }
 
 .skill{
-  background-color : #ff00f7;
+  padding : 150px;
 }
 
 .works{
-  background-color : #ffea00;
+  padding : 150px;
 }
 
 .contact{
-  background-color : #ffffff
+  padding : 150px;
+}
+
+.coior{
+  min-height:100vh;
+  background-image: linear-gradient(#edaff9 0%,#5cc9f7 50%,#99fea5 100%);
 }
 
 
-
-
 .font-white {
-  color : white;
+  color : rgb(255, 255, 255);
 }
 
 .navigation {
@@ -55,18 +40,20 @@ p {
 }
 
 .navigation-item{
-  margin: 20px 10px ;
+  margin: 20px 10px;
   list-style: none;
 }
 
 .works-img{
+  text-align: center;
   list-style: none;
+  padding: 5px;
 }
 
 .skill-img{
-  text-align:center;
+  text-align: center;
   list-style: none;
-  padding:5px
+  padding: 5px;
 }
 
 
