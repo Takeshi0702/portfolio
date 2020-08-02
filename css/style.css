@@ -59,6 +59,17 @@ p {
   list-style: none;
 }
 
+.works-img{
+  list-style: none;
+}
+
+.skill-img{
+  text-align:center;
+  list-style: none;
+  padding:5px
+}
+
+
 
 /* レイアウトなどのレスポンシブ対応はBootstrapに任せて、ボタンなどの見えるところは、独自にCSSで書くと、オリジナル感が出ておすすめです*/
 /* IDとクラスの指定方法 */
