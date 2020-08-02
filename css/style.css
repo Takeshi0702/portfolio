@@ -23,20 +23,25 @@ p {
 
 
 .top {
-  background-color : #00ddff;
-}
-
-.about{
   background-color : #00ff91;
 }
 
+.about{
+  background-color : #00ddff;
+}
+
 .skill{
-  background-color : #e600ff;
+  background-color : #ff00f7;
 }
 
 .works{
-  background-color : #eaff00;
+  background-color : #ffea00;
 }
+
+.contact{
+  background-color : #ffffff
+}
+
 
 
 
