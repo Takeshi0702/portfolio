@@ -2,11 +2,9 @@
   text-align : center ;
 }
 
-
 .top {
   padding : 250px;
 }
-
 
 .about{
   padding : 100px;
@@ -29,7 +27,6 @@
   background-image: linear-gradient(#edaff9 0%,#5cc9f7 50%,#6efe7f 100%);
 }
 
-
 .font-white {
   color : rgb(255, 255, 255);
 }
@@ -50,10 +47,21 @@
   padding: 5px;
 }
 
-.skill-img{
+/* .skill-img{
   text-align: center;
   list-style: none;
   padding: 5px;
+} */
+
+.img-profile{
+  width:200px;
+	height:200px;
+	object-fit:cover;
+  border-radius:50%;
+}
+
+.skill-box{
+  border-radius:50%;
 }
 
 
