@@ -41,6 +41,14 @@
   list-style: none;
 }
 
+.top-name{
+  font-size: 80px;
+}
+
+.top-subname{
+  font-size: 30px;
+}
+
 .works-img{
   text-align: center;
   list-style: none;
@@ -71,6 +79,20 @@
   margin: 50px;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+
+.contact-comment{
+  padding : 30px;
+}
+
+.contact-message{
+  height : 50px;
+}
 
 
 /* レイアウトなどのレスポンシブ対応はBootstrapに任せて、ボタンなどの見えるところは、独自にCSSで書くと、オリジナル感が出ておすすめです*/
