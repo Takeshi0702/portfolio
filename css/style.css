@@ -1,30 +1,36 @@
 .center{
-  text-align : center ;
+  text-align: center;
 }
 
 .top {
-  padding : 250px;
+  padding: 250px;
 }
 
 .about{
-  padding : 100px;
+  padding: 100px;
+  
 }
 
 .skill{
-  padding : 100px;
+  padding: 100px;
 }
 
 .works{
-  padding : 110px;
+  padding: 110px;
 }
 
 .contact{
-  padding : 150px;
+  padding : 110px;
+  text-align: center;
 }
 
 .coior{
   min-height:100vh;
   background-image: linear-gradient(#edaff9 0%,#5cc9f7 50%,#6efe7f 100%);
+}
+
+.font-family{
+  font-family: 'Helvetica','Arial','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'sans-serif;
 }
 
 .font-white {
@@ -39,6 +45,19 @@
 .navigation-item{
   margin: 20px 15px;
   list-style: none;
+}
+
+.navigation-font-size{
+  font-size: 60px;
+}
+
+.messages-font-size{
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.language{
+  padding : 10px;
 }
 
 .top-name{
@@ -91,7 +110,22 @@ header {
 }
 
 .contact-message{
-  height : 50px;
+  width: 200px;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.font-green{
+  color: #00FF00;
+}
+
+
+.copy-mark{
+  padding : 30px;
 }
 
 
