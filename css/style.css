@@ -3,30 +3,30 @@
 }
 
 .top {
-  padding: 250px;
+  padding: 250px 0;
 }
 
 .about{
-  padding: 100px;
+  padding: 100px  0;
   
 }
 
 .skill{
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .works{
-  padding: 110px;
+  padding: 110px 0;
 }
 
 .contact{
-  padding : 110px;
+  padding : 110px 0;
   text-align: center;
 }
 
 .coior{
   min-height:100vh;
-  background-image: linear-gradient(#edaff9 0%,#5cc9f7 50%,#6efe7f 100%);
+  background-image: linear-gradient(#ff58ac 0%,#54c9fa 50%,#14fea0 100%);
 }
 
 .font-family{
@@ -120,14 +120,16 @@ header {
 }
 
 .font-green{
-  color: #00FF00;
+  color: #FFA500;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 
 .copy-mark{
   padding : 30px;
 }
 
-
-/* レイアウトなどのレスポンシブ対応はBootstrapに任せて、ボタンなどの見えるところは、独自にCSSで書くと、オリジナル感が出ておすすめです*/
+i:hover {
+  opacity: 0.5;
+}
 /* IDとクラスの指定方法 */
