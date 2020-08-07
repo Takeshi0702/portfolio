@@ -51,6 +51,10 @@
   font-size: 60px;
 }
 
+.sns-github{
+  cursor: pointer;
+}
+
 .messages-font-size{
   font-size: 20px;
   line-height: 40px;
@@ -68,10 +72,16 @@
   font-size: 30px;
 }
 
-.works-img{
-  text-align: center;
-  list-style: none;
-  padding: 5px;
+.works-itms-one{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.works-itms-two{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
 
 .img-profile{
@@ -89,7 +99,7 @@
 .skill-itms-one{
   display: flex;
   justify-content: center;
-  margin: 50px;
+  margin: 50px ;
 }
 
 .skill-itms-two{
@@ -114,13 +124,12 @@ header {
   height: 65px;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   overflow: hidden;
   background: #ffffff;
 }
 
-.font-green{
-  color: #FFA500;
+.font-orange{
+  color: #ff9500;
   font-size: 20px;
   font-weight: bold;
 }
@@ -132,4 +141,5 @@ header {
 i:hover {
   opacity: 0.5;
 }
+
 /* IDとクラスの指定方法 */
