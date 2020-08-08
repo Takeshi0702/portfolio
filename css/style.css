@@ -26,7 +26,7 @@
 
 .coior{
   min-height:100vh;
-  background-image: linear-gradient(#ff58ac 0%,#54c9fa 50%,#14fea0 100%);
+  background-image: linear-gradient(#ff58ac 0%,#54c9fa 50%,#00ff73 100%);
 }
 
 .font-family{
@@ -37,13 +37,13 @@
   color : rgb(255, 255, 255);
 }
 
-.navigation {
+/* .navigation {
   display: flex;
   justify-content: center;
-}
+} */
 
 .navigation-item{
-  margin: 20px 15px;
+  margin: 20px /*15px*/;
   list-style: none;
 }
 
@@ -61,11 +61,11 @@
 }
 
 .language{
-  padding : 10px;
+  padding : 5px;
 }
 
 .top-name{
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .top-subname{
@@ -110,13 +110,13 @@
 
 header {
   position: fixed;
-  width: 100%;
-  top: 0;
+  /* width: 100%; */
+  /* top: 0; */
   z-index: 10000;
 }
 
 .contact-comment{
-  padding : 30px;
+  margin: 50px;
 }
 
 .contact-message{
@@ -135,11 +135,10 @@ header {
 }
 
 .copy-mark{
-  padding : 30px;
+  margin: 50px;
 }
 
 i:hover {
   opacity: 0.5;
 }
 
-/* IDとクラスの指定方法 */
