@@ -16,4 +16,4 @@ window.addEventListener( "scroll" ,function(){
     document.body.style.backgroundColor = '#FF4081';
   }
   
-});
+})
