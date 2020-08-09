@@ -71,6 +71,7 @@ body{
 }
 
 .language{
+  font-size: 25px;
   padding : 5px;
 }
 
@@ -164,21 +165,54 @@ ul{
   margin-bottom: 0;
 }
 
-/* 
+
+
 .star-rating {
 	position: relative;
-	font-size: 30px;
+	font-size: 25px;
 	word-wrap: normal !important;
 }
 
-.star-rating-front {
+.html-star-rating-front {
 	position: absolute;
 	top: 0;
 	left: 0;
-    overflow: hidden;
-    color: #EE6C4D;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.css-star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.javaccript-star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.python-star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.django-star-rating-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+  overflow: hidden;
+  color: #ffffff;
 }
 
 .star-rating-back {
-	color: #ccc;
-} */
+	color: #ffffff;
+}
