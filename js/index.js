@@ -4,7 +4,7 @@ window.addEventListener( "scroll" ,function(){
   //スクロールの高さを取得
   let scroll = window.pageYOffset;
   
-  if( scroll > 3100 ){
+  if( scroll > 3000 ){
     document.body.style.backgroundColor = '#40E0D0';
   }else if( scroll > 2250 ){
     document.body.style.backgroundColor = '#EEEEEE';
@@ -16,3 +16,4 @@ window.addEventListener( "scroll" ,function(){
     document.body.style.backgroundColor = '#CC66FF';
   }
 })
+
