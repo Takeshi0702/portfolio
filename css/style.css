@@ -30,7 +30,8 @@ html{
 }
 
 #menu-bar{
-  background-color: #CC66FF;
+  /* background-color: #CC66FF; */
+  background: rgb(255, 255, 255);
   opacity: 0.7 ;
   transition: 0.1s;
 }
@@ -54,7 +55,7 @@ html{
 
 .active {
   font-size: 18px;
-  color: rgb(252, 0, 0);
+  color: rgb(80, 5, 255);
   text-decoration: none;
   /* line-height: 50px; */
   font-weight: bold;
@@ -64,7 +65,6 @@ html{
   height: 100%;
   width: 100%;
 }
-
 
 
 
@@ -139,13 +139,13 @@ a {
   font-size: 60px;
 }
 
-.sns-github{
+/* .sns-github{
   cursor: pointer;
   display: flex;
   justify-content: center;
   margin: 20px 30px;
-  /* padding : 50px 20px; */
-}
+  padding : 50px 20px;
+} */
 
 .messages-font-size{
   font-size: 20px;
@@ -276,6 +276,11 @@ a.contact-messages:hover{
   color: white; background-color: black;
 }
 
+.contact-height{
+  margin: 50px;
+}
+
+
 
 /* .font-oranges{ 
   color: black; 
@@ -289,10 +294,10 @@ a.contact-messages:hover{
   font-size: 20px;
   font-weight: bold;
 } */
-
+/* 
 i.sns-github:hover {
   opacity: 0.6;
-}
+} */
 
 .header-color{
   display: flex;
@@ -369,7 +374,7 @@ ul{
   /* color: #fff; */
 /* } */
 
-.fabs {
+.fabs  {
   bottom: 0;
   position: fixed;
   margin: 1em;
@@ -396,8 +401,8 @@ ul{
 }
 
 .fab > i {
-  font-size: 28px;
-  line-height: 55px;
+  font-size: 33px;
+  line-height: 56px;
   transition: all .2s ease-in-out;
   /* transition-delay: 1s; */
 }
@@ -492,7 +497,7 @@ box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
 }
 
 .fab:not(:last-child) > i {
-  font-size: 30px;
+  font-size: 33px;
   /* line-height: 60px; */
   /* transition: all .3s ease-in-out; */
 }
@@ -555,6 +560,6 @@ box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
   opacity: 1;
 }
 
-#icon{
+/* #icon{
   opacity: 0.7;
-}
+} */

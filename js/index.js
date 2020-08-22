@@ -4,23 +4,41 @@ window.addEventListener( "scroll" ,function(){
   //スクロールの高さを取得
   let scroll = window.pageYOffset;
   
-  if( scroll > 2900 ){
+  if( scroll > 3000 ){
     document.body.style.backgroundColor = '#35DDCA';
     document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
-    // document.getElementsByClassName("fab").style.backgroundColor = 'red';
-    document.getElementById("icon").style.backgroundColor = 'red';
+    document.getElementById("icon-share").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-facebook").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-twitter").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-github").style.backgroundColor = 'rgb(253 253 253 / 30%)';
   }else if( scroll > 2250 ){
-    document.body.style.backgroundColor = '#DDDDDD';
+    document.body.style.backgroundColor = '#EEEEEE';
     document.getElementById("menu-bar").style.backgroundColor = 'black';
+    document.getElementById("icon-share").style.backgroundColor = 'rgba(0 0 0 / 40%)';
+    document.getElementById("icon-facebook").style.backgroundColor = 'rgba(0 0 0 / 40%)';
+    document.getElementById("icon-twitter").style.backgroundColor = 'rgba(0 0 0 / 40%)';
+    document.getElementById("icon-github").style.backgroundColor = 'rgba(0 0 0 / 40%)';
   }else if( scroll > 1440 ){
     document.body.style.backgroundColor = '#FFA866';
     document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
+    document.getElementById("icon-share").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-facebook").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-twitter").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-github").style.backgroundColor = 'rgb(253 253 253 / 30%)';
   }else if( scroll > 650 ){
     document.body.style.backgroundColor = '#005FFF';
     document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
+    document.getElementById("icon-share").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-facebook").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-twitter").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-github").style.backgroundColor = 'rgb(253 253 253 / 30%)';
   }else{
     document.body.style.backgroundColor = '#CC66FF';
     document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
+    document.getElementById("icon-share").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-facebook").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-twitter").style.backgroundColor = 'rgb(253 253 253 / 30%)';
+    document.getElementById("icon-github").style.backgroundColor = 'rgb(253 253 253 / 30%)';
   }
 })
 
