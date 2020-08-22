@@ -55,7 +55,7 @@ html{
 
 .active {
   font-size: 18px;
-  color: rgb(80, 5, 255);
+  color: rgb(126, 126, 126);
   text-decoration: none;
   /* line-height: 50px; */
   font-weight: bold;
@@ -83,7 +83,7 @@ header {
 a {
   text-decoration: none;
   font-size: 18px;
-  color: black;
+  color: rgb(0, 157, 255);
 }
 
 .center{
