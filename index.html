@@ -37,26 +37,26 @@
   </head>
 
   <body>
-    <header>
-    <div class="menu">
+  <header>
+    <div id="menu-bar" class="menu">
       <div id="menu-center">
-        <nav>
+        <!-- <nav> -->
           <ul>
-            <li><a class="active slide" href="#home">HOME</a></li>
-            <li><a class="slide" href="#about">ABOUT</a></li>
-            <li><a class="slide" href="#skills">SKILLS</a></li>
-            <li><a class="slide" href="#works">WORKS</a></li>
-            <li><a class="slide" href="#contact">CONTACT</a></li>
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
-        </nav>
+        <!-- </nav> -->
       </div>
     </div>
-    <div id="home" class="content"></div>
+    <!-- <div id="home" class="content"></div>
     <div id="about" class="content"></div>
     <div id="skills" class="content"></div>
     <div id="works" class="content"></div>
-    <div id="contact" class="content"></div>
-    </header>
+    <div id="contact" class="content"></div> -->
+  </header>
 
 
 
@@ -86,19 +86,19 @@
 
     <article class="color">
 
-      <section class="top center font-white">
+      <section id="home" class="top center font-white">
           <h1 class="top-name">Takeshi Sasaki</h1>
           <p class="top-subname">WEB DEVELOPER & DESIGNER</p>
       </section>
 
-      <section class="about center font-white" id="about">
+      <section id="about" class="about center font-white" id="about">
         <h2 class="navigation-font-size">ABOUT</h2>
           <img class="img-profile" src="photo/profile.jpg"/>
           <p class="messages-font-size">学生時代の全てバスケットボールに注ぐ。<br>大学時代は関東大会優勝・全国大会(インカレ)3位・天皇杯を経験。<br>
           卒業後は料理人(パティシエ) & ホールスタッフを5年、<br>営業 (M&Aアドバイザー・生命保険(外資)・WEBコンサルタント etc) を6年経験。<br>現在は侍エンジニア塾でプログラミングを学習中。<br>どうぞお気軽にご連絡下さい。</p>
       </section>
 
-      <section class="skill center font-white">
+      <section id="skills" class="skill center font-white">
         <h2 class="navigation-font-size">SKILL</h2>
           <div class="skill-itms-one messages-font-size">
             <div class="skill-item">
@@ -161,7 +161,7 @@
 
       </section>
 
-      <section class="works center font-black">
+      <section id="works" class="works center font-black">
         <h2 class="navigation-font-size">WORKS</h2>
           <div class="works-itms-one">
             <div>
@@ -203,7 +203,7 @@
           </div>
       </section>
 
-      <section class="contact font-white">
+      <section id="contact" class="contact font-white">
         <h2 class="navigation-font-size">CONTACT</h2>
           <p class="contact-comment messages-font-size">WEBに関するお悩みをお聞かせ下さい。<br>課題解決に向けて全力で取り組ませて頂きます。<br>お気軽にご連絡下さい。</p>
           <a href="???" target="_self" class="contact-messages">
@@ -241,7 +241,7 @@
       <a href="GitHubリンク" target="_blank" class="fab red" tooltip="Git Hub"><i class="fab fa-github fa-2x"></i></a>
       <a href="twitterリンク" target="_blank" class="fab light-blue" tooltip="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
       <a href="facebookリンク" target="_blank" class="fab indigo" tooltip="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
-      <a target="_blank" class="fab red" ><i class="fas fa-share-alt-square fa-3x"></i></a>
+      <a id="icon" target="_blank" class="fab red" ><i class="fas fa-share-alt-square fa-3x"></i></a>
     </div>
 
     <!-- tooltip="Share" -->

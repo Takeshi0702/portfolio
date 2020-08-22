@@ -6,16 +6,25 @@ window.addEventListener( "scroll" ,function(){
   
   if( scroll > 2900 ){
     document.body.style.backgroundColor = '#35DDCA';
+    document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
+    // document.getElementsByClassName("fab").style.backgroundColor = 'red';
+    document.getElementById("icon").style.backgroundColor = 'red';
   }else if( scroll > 2250 ){
     document.body.style.backgroundColor = '#DDDDDD';
+    document.getElementById("menu-bar").style.backgroundColor = 'black';
   }else if( scroll > 1440 ){
     document.body.style.backgroundColor = '#FFA866';
+    document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
   }else if( scroll > 650 ){
     document.body.style.backgroundColor = '#005FFF';
+    document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
   }else{
     document.body.style.backgroundColor = '#CC66FF';
+    document.getElementById("menu-bar").style.backgroundColor = 'rgb(255, 255, 255)';
   }
 })
+
+
 
 
 
