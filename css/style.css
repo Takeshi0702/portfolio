@@ -108,9 +108,9 @@ a {
 }
 
 .contact{
-  padding : 110px 0;
+  padding : 140px 0;
   text-align: center;
-  min-height: 0vh;
+  /* min-height: 0vh; */
 }
 
 .color{
@@ -138,14 +138,6 @@ a {
 .navigation-font-size{
   font-size: 60px;
 }
-
-/* .sns-github{
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  margin: 20px 30px;
-  padding : 50px 20px;
-} */
 
 .messages-font-size{
   font-size: 20px;
@@ -209,26 +201,17 @@ a {
   margin: 30px;
 }
 
-/* .contact-message{
-  width: 200px;
-  height: 65px;
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #ffffff;
-} */
-
 .contact-messages{
   display: inline-block;
-  /* font-size: 20px; */
-  width: 10rem;
-  padding: 5em;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+  /* padding-top: 0.6em; 残す
+  padding-right: 0.6em; 残す
+  padding-bottom: 0.6em; 残す
+  padding-left: 0.6em; 残す */
   font-weight: 500;
-  font-size: 1em;
+  font-size: 17px;
   color: #2F2F2F;
   background:#fff;
   /* background-image: initial;
@@ -259,45 +242,27 @@ a {
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial; */
-  border-radius:3px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  text-transform: uppercase;
-  transition:all .5s;
+  border-radius:50px;
+  /* border-top-left-radius: 3px; 残す
+  border-top-right-radius: 3px;　残す
+  border-bottom-right-radius: 3px;　残す
+  border-bottom-left-radius: 3px; 残す */　
+  /* text-transform: uppercase; */
+  /* transition:all .5s; */
   transition-property: all;
   transition-duration: 0.5s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
+  /* transition-timing-function: ease;
+  transition-delay: 0s; */
 }
 
 a.contact-messages:hover{
   color: white; background-color: black;
 }
 
-.contact-height{
+/* .contact-height{        $一度検討[MESSAEG ME]の高さの幅 88vh の代わり
   margin: 50px;
-}
-
-
-
-/* .font-oranges{ 
-  color: black; 
-  font-size: 20px; 
-  font-weight: bold;
 } */
 
-
-/* .font-orange{
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-} */
-/* 
-i.sns-github:hover {
-  opacity: 0.6;
-} */
 
 .header-color{
   display: flex;
