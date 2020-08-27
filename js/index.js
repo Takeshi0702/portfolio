@@ -1,7 +1,5 @@
-//スクロール発火イベント
 window.addEventListener( "scroll" ,function(){
 
-  //スクロールの高さを取得
   let scroll = window.pageYOffset;
   
   if( scroll > 3000 ){
@@ -41,9 +39,6 @@ window.addEventListener( "scroll" ,function(){
     document.getElementById("icon-github").style.backgroundColor = "rgb(253 253 253 / 30%)";
   }
 })
-
-
-
 
 
 window.onscroll = onScroll;
