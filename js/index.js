@@ -56,7 +56,7 @@ function onScroll() {
         if (currentRefElementTop <= 0) {
             previousRefElement = anchors[i];
             if (i == anchors.length - 1) {
-                emoveActiveClass(anchors);
+                removeActiveClass(anchors);
                 anchors[i].classList.add("active");
             }
         } else {
@@ -66,3 +66,4 @@ function onScroll() {
         }
     }
 }
+

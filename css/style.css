@@ -57,10 +57,10 @@ html{
   font-weight: bold;
 }
 
-.content {
+/* .content {
   height: 100%;
   width: 100%;
-}
+} */
 
 
 header {
@@ -99,7 +99,7 @@ a {
 }
 
 .contact{
-  padding : 140px 0;
+  padding : 165px 0;
   text-align: center;
   /* min-height: 0vh; */
 }
@@ -179,14 +179,14 @@ a {
 }
 
 .contact-comment{
-  margin: 30px;
+  margin: 40px;
 }
 
 .contact-messages{
   display: inline-block;
   width: 200px;
   padding: 10px;
-  margin: 30px;
+  margin: 10px;
   /* padding-top: 0.6em; 残す
   padding-right: 0.6em; 残す
   padding-bottom: 0.6em; 残す
