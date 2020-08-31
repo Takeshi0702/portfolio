@@ -95,11 +95,11 @@ a {
 }
 
 .works{
-  padding: 110px 0;
+  padding: 110px 0 140px;
 }
 
 .contact{
-  padding : 165px 0;
+  padding : 150px 0 130px;
   text-align: center;
   /* min-height: 0vh; */
 }
