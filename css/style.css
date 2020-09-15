@@ -236,8 +236,10 @@ a {
   transition-delay: 0s;
 }
 
-a.contact-messages:hover{
-  color: white; background-color: black;
+.contact-messages:hover{
+  color: white; 
+  background:black;
+  background-color: black;
 }
 
 /* .contact-height{        $一度検討[MESSAEG ME]の高さの幅 88vh の代わり
